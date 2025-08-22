@@ -27,6 +27,7 @@ h2 {
     width: 90%;
     height: 200px;
     background-color: rgb(200, 221, 196);
+    border-radius: 15px;
     margin: 0 auto 20px;
     display: flex;
     justify-content: flex-start;
@@ -37,12 +38,17 @@ h2 {
     width: 80px;
     height: 80px;
     background-color: white;
-    border: 1px solid rgb(255, 255, 255);
     border-radius: 17px;
     margin: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-item:hover {
+    transform: translate(5px);
+    transition: all 0.6s ease;
+    background-color: rgb(255, 255, 255);
 }
 
 .justify-center {
@@ -51,4 +57,12 @@ h2 {
 
 .justify-end {
     justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
 }
