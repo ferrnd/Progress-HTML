@@ -22,10 +22,10 @@ h2 {
 }
 
 .retangulo {
-    width: 400px;
-    height: 200px;
-    background-color: rgb(200, 221, 196);
+    width: 150px;
+    height: 150px;
     margin: 50px auto;
+    border-radius: 50%;
 }
 .container {
     display: flex;
@@ -40,7 +40,15 @@ h2 {
 }
 
 .verde {
-    background-color: greenyellow;
+    background-color: rgb(153, 255, 0);
+}
+
+.vermelho {
+    background-color: rgb(255, 0, 0);
+}
+
+.amarelo {
+    background-color: rgb(255, 255, 0);
 }
 
 .roxo {
