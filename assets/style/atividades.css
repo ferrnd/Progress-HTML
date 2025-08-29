@@ -27,4 +27,22 @@ h2 {
     background-color: rgb(200, 221, 196);
     margin: 50px auto;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+}
+.quadrado {
+    width: 150px;
+    height: 150px;
+}
 
+.verde {
+    background-color: greenyellow;
+}
+
+.roxo {
+    background-color: violet;
+}
