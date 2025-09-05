@@ -26,8 +26,8 @@ h2 {
     height: 150px;
     margin: 10px auto;
     border-radius: 50%;
-    
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -39,23 +39,26 @@ h2 {
     justify-content: center;
     margin: 0 auto;
     flex-direction: column;
-    width: 300px;
+    width: 275px;
 
 }
 
 .verde {
     background-color: rgb(149, 241, 9);
     border-right: 10px solid rgb(112, 221, 10);
+    box-shadow: 0 0 50px greenyellow;
 }
 
 .vermelho {
     background-color: rgb(255, 0, 0);
     border-right: 10px solid rgb(218, 2, 2);
+    box-shadow: 0 0 50px red
 }
 
 .amarelo {
     background-color: rgb(255, 255, 0);
     border-right: 10px solid rgb(223, 223, 1);
+    box-shadow: 0 0 50PX yellow;
 }
 
 .nav {
